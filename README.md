@@ -1,5 +1,5 @@
 # Path-Planning-for-Robotic-Hypertrophic-Laser-Scar-Therapy
-This repository conatains the code and images meant for training a laser agent. It was an educational tool to allow us to self-explore robot learning. 
+This repository contains the code and images meant for training a laser agent. It was an educational tool to allow us to self-explore robot learning. 
 
 # Features
 - U-Net Segmentation
@@ -14,7 +14,7 @@ This repository conatains the code and images meant for training a laser agent. 
 Easiest Way to Run: Open this file in Google Co-Lab: https://colab.research.google.com/drive/1zEf3eBp5WqS_NX71rrh3yA-GYFOHjtIv#scrollTo=vkLOVCatmmMY
 
 Download both the Segmentation and Images folders.  
-Start the runtime (reccomendation Python3, T4 GPU).  
+Start the runtime (recommendation Python3, T4 GPU).  
 Import both folders into the files section of the Co-Lab runtime.   
 
 Press Run All
