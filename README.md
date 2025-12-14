@@ -13,9 +13,9 @@ This repository conatains the code and images meant for training a laser agent. 
 # Instructions to Run
 Easiest Way to Run: Open this file in Google Co-Lab: https://colab.research.google.com/drive/1zEf3eBp5WqS_NX71rrh3yA-GYFOHjtIv#scrollTo=vkLOVCatmmMY
 
-Download both the Segmentation and Images folders. 
-Start the runtime (reccomendation Python3, T4 GPU).
-Import both folders into the files section of the Co-Lab runtime
+Download both the Segmentation and Images folders.  
+Start the runtime (reccomendation Python3, T4 GPU). 
+Import both folders into the files section of the Co-Lab runtime  
 
 Press Run All
 
