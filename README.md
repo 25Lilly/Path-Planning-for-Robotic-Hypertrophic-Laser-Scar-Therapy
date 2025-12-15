@@ -23,13 +23,19 @@ This repository contains the code and images meant for training a laser agent. I
 - shutil
 
 # Instructions to Run
-Easiest Way to Run: Open this file in Google Co-Lab: https://colab.research.google.com/drive/1zEf3eBp5WqS_NX71rrh3yA-GYFOHjtIv#scrollTo=vkLOVCatmmMY
+Run Online (Recommended Method): 
+Open this file in Google Co-Lab: https://colab.research.google.com/drive/1zEf3eBp5WqS_NX71rrh3yA-GYFOHjtIv#scrollTo=vkLOVCatmmMY
 
 Download both the Segmentation and Images folders.  
 Start the runtime (recommendation Python3, T4 GPU).  
 Import both folders into the files section of the Co-Lab runtime.   
+Press Run All.
 
-Press Run All
+Run Locally:  
+Download the .ipynb file, segmenetation folder, and images folder.   
+Download all required libraries.  
+Run code.  
+
 
 # File Organization
 main/  
