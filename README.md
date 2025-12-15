@@ -6,9 +6,21 @@ This repository contains the code and images meant for training a laser agent. I
 - Lumped Capacitance Heat Model
 - Q-Learning Path Planning
 
-# Tools
+# Language/Libraries
 - Python, Jupyter Notebook
-- Tools / Libraries
+- os
+- torch
+- numpy
+- cv2
+- segementation_models_pytorch
+- albumentations
+- tqdm
+- matplotlib
+- shapely
+- scipy
+- imageio
+- PIL
+- shutil
 
 # Instructions to Run
 Easiest Way to Run: Open this file in Google Co-Lab: https://colab.research.google.com/drive/1zEf3eBp5WqS_NX71rrh3yA-GYFOHjtIv#scrollTo=vkLOVCatmmMY
