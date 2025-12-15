@@ -32,7 +32,7 @@ Import both folders into the files section of the Co-Lab runtime.
 Press Run All.
 
 **Run Locally:**  
-Download the .ipynb file, segmenetation folder, and images folder.   
+Download the .ipynb file, segmentation folder, and images folder.   
 Download all required libraries.  
 Run code.  
 
