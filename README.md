@@ -36,15 +36,18 @@ Download the .ipynb file, segmenetation folder, and images folder.
 Download all required libraries.  
 Run code.  
 
+**NOTE:** If you decide you don't want to train the segmentation model, you can utilize best_model.pth to skip this portion of our code.
 
 # File Organization
 main/  
 │── Images/  
 │── Segmentation/  
 │── Visualizations/  
+│── README.md  
+│── best_model.pth  
 │── image_to_path_pipeline.ipynb  
 │── final_report.pdf  
-│── README.md  
+
 
 # Future Improvements to Be Made
 For information on limitations and future work, check out final_report.pdf
