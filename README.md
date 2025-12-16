@@ -32,7 +32,7 @@ Import both folders into the files section of the Co-Lab runtime.
 Press Run All.
 
 **Run Locally:**  
-Download the .ipynb file, segmentation folder, and images folder.   
+Download the `image_to_path_pipeline.ipynb`, segmentation folder, and images folder.   
 Download all required libraries.  
 Run code.  
 
@@ -50,13 +50,13 @@ main/
 
 # Notebook Overview: Image-to-Path Pipeline
 
-The `image_to_path_pipeline.ipynb` notebook implements the **full end-to-end pipeline**, transforming a raw hypertrophic scar image into an optimized laser treatment path.
+The `image_to_path_pipeline.ipynb` notebook implements the full end-to-end pipeline, transforming a raw hypertrophic scar image into an optimized laser treatment path.
 
 The notebook is organized into the following major stages:
 
 ## 1. Segmentation (U-Net Fine-Tuning and Inference)
 
-* A **U-Net with a ResNet34 encoder** is trained or loaded to segment images into:
+* A U-Net with a ResNet34 encoder is trained or loaded to segment images into:
 
   * background
   * healthy skin
@@ -75,7 +75,7 @@ The notebook is organized into the following major stages:
 
 ## 3. Laser Tiling and Image-to-Squares Conversion
 
-* The scar region is tiled into fixed-size **laser squares** corresponding to the physical laser footprint.
+* The scar region is tiled into fixed-size laser squares corresponding to the physical laser footprint.
 * Rotation is evaluated to minimize the number of required laser placements.
 * Each input image is converted into:
 
@@ -87,9 +87,9 @@ This stage bridges perception (segmentation) and planning.
 
 ## 4. Thermal Modeling
 
-* A **lumped capacitance heat model** estimates the temperature evolution of scar tissue.
+* A lumped capacitance heat model estimates the temperature evolution of scar tissue.
 * Each laser square is subdivided into smaller temperature-tracked regions.
-* Heat propagation to neighboring squares is modeled to simulate collateral heating.
+* Heat propagation to neighboring squares is modeled to simulate heating transfer via conduction.
 * Temperature thresholds are used to detect minor and major burns.
 
 ## 5. Scar Representation
@@ -100,7 +100,7 @@ This stage bridges perception (segmentation) and planning.
   * Laser hits
   * Local temperatures
   * Adjacency effects
-* The structure is reused by both planning algorithms.
+* The structure is used by both planning algorithms.
 
 ## 6. Reinforcement Learning (Q-Learning)
 
@@ -143,7 +143,7 @@ This stage bridges perception (segmentation) and planning.
 * Comparative metrics between RL and greedy approaches
 
 # Future Improvements to Be Made
-For information on limitations and future work, check out final_report.pdf
+For information on limitations and future work, check out `final_report.pdf`
 
 Contact Us:  
 lhc24@duke.edu  
