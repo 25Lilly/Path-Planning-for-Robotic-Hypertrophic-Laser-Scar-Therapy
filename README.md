@@ -143,7 +143,7 @@ This stage bridges perception (segmentation) and planning.
 * Comparative metrics between RL and greedy approaches
 
 # Future Improvements to Be Made
-For information on limitations and future work, check out `final_report.pdf`
+For information on limitations and future work, check out `Robot_Learning_Final_Report.pdf`
 
 Contact Us:  
 lhc24@duke.edu  
